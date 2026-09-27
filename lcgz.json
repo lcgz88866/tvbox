@@ -1,0 +1,1126 @@
+{
+    "spider": "",
+    "logo": "./py/a.gif",
+    "wallpaper": "https://picsum.photos/1080/",
+    "lives": [
+        {
+            "name": "央视频",
+            "url": "https://raw.githubusercontent.com/zilong7728/Collect-IPTV/refs/heads/main/best_sorted.m3u",
+            "playerType": 2
+        },
+        {
+            "name": "Kimentanm",
+            "type": 0,
+            "url": "./py/江苏.m3u",
+            "playerType": 2
+        },
+        {
+            "name": "综合直播",
+            "type": 0,
+            "playerType": 2,
+            "url": "http://193.123.86.190:14888/TV/iptv.php",
+            "ua": "bingcha/1.1 (mianfeifenxiang) "
+        }
+    ],
+    "sites": [
+        {
+            "key": "豆瓣",
+            "name": "豆瓣｜预告",
+            "type": 3,
+            "api": "./drpy_libs/drpy2.min.js",
+            "ext": "./py/豆瓣.js",
+            "searchable": 0,
+            "quickSearch": 0,
+            "filterable": 1
+        },
+        {
+            "key": "多多影视",
+            "name": "多多• 影视",
+            "type": 3,
+            "api": "./py/多多影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "柯南",
+            "name": "柯南•影视",
+            "type": 3,
+            "api": "./py/柯南.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "瓜子2影视",
+            "name": "瓜子②•影视",
+            "type": 3,
+            "api": "./py/GZYS.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "两个BT",
+            "name": "两个BT•影视",
+            "type": 3,
+            "api": "./py/两个BT.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "K1影视",
+            "name": "K1•影视",
+            "type": 3,
+            "api": "./py/K1.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1,
+            "ext": {
+                "site": "https://m.7ighz2.com,https://m.hellosht52bwb.com,https://m.sizhengxt.com"
+            }
+        },
+        {
+            "key": "看剧影视",
+            "name": "看剧•影视",
+            "type": 3,
+            "api": "./py/AppToV5.py",
+            "ext": "http://43.248.117.123:4680"
+        },
+        {
+            "key": "北觅影视",
+            "name": "北觅•影视",
+            "type": 3,
+            "api": "./py/北觅影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "4K影视",
+            "name": "4K• 影视",
+            "type": 3,
+            "api": "./py/4kv.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "网网影视",
+            "name": "旺旺• 影视",
+            "type": 3,
+            "api": "./py/网网影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "看客影视",
+            "name": "看客•影视",
+            "type": 3,
+            "api": "./py/看客.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "豆花影视",
+            "name": "豆花•影视",
+            "type": 3,
+            "api": "./py/豆花.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "青禾影视",
+            "name": "青禾•影视",
+            "type": 3,
+            "api": "./py/青禾.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "凡客影视",
+            "name": "凡客•影视",
+            "type": 3,
+            "api": "./py/凡客.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "飞流影视",
+            "name": "飞流•影视",
+            "type": 3,
+            "api": "./py/飞流.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "毒舌影视",
+            "name": "毒舌•影视",
+            "type": 3,
+            "api": "./py/毒舌.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "开心影视",
+            "name": "开心• 影视",
+            "type": 3,
+            "api": "./py/开心.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "麒麟影视",
+            "name": "麒麟• 影视",
+            "type": 3,
+            "api": "./py/麒麟影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "奇优影视",
+            "name": "奇优• 影视",
+            "type": 3,
+            "api": "./py/奇优影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "剧踪视频",
+            "name": "剧踪• 影视",
+            "type": 3,
+            "api": "./py/剧踪视频.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "猎手视频",
+            "name": "猎手•影视",
+            "type": 3,
+            "api": "./py/猎手.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "瓜瓜影视",
+            "name": "瓜瓜• 影视",
+            "type": 3,
+            "api": "./py/瓜瓜.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "aa影视",
+            "name": "SA• 影视",
+            "type": 3,
+            "api": "./py/SA视频.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "简云影视",
+            "name": "简云• 影视",
+            "type": 3,
+            "api": "./py/jianyun.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "飞快影视",
+            "name": "飞快• 影视",
+            "type": 3,
+            "api": "./py/feikuai.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "泥影视",
+            "name": "泥• 影视",
+            "type": 3,
+            "api": "./py/泥视频.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "独播库影视",
+            "name": "独播库• 影视",
+            "type": 3,
+            "api": "./py/dbku.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "南瓜影视",
+            "name": "南瓜• 影视",
+            "type": 3,
+            "api": "./py/南瓜.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "viptu影视",
+            "name": "vip兔• 影视",
+            "type": 3,
+            "api": "./py/viptu.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "绿色影视",
+            "name": "绿色• 影视",
+            "type": 3,
+            "api": "./py/绿色影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "Cloud影视",
+            "name": "Cloud• 影视",
+            "type": 3,
+            "api": "./py/Cloud影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "大马上影视",
+            "name": "大马猴• 影视",
+            "type": 3,
+            "api": "./py/大马猴影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "金牌影视",
+            "name": "金牌• 影视",
+            "type": 3,
+            "api": "./py/金牌影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "可可影视",
+            "name": "可可•影视",
+            "type": 3,
+            "api": "./py/可可影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "界影视",
+            "name": "界• 影视",
+            "type": 3,
+            "api": "./py/界影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "农民影视",
+            "name": "农民• 影视",
+            "type": 3,
+            "api": "./py/农民.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "烧火影视",
+            "name": "骚火• 影视",
+            "type": 3,
+            "api": "./py/骚火影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "白嫖影视",
+            "name": "白嫖• 影视",
+            "type": 3,
+            "api": "./py/白嫖.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "袋鼠影视",
+            "name": "袋鼠• 影视",
+            "type": 3,
+            "api": "./py/ds.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "柠檬影视",
+            "name": "柠檬• 影视",
+            "type": 3,
+            "api": "./py/柠檬视频.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "影视大全",
+            "name": "影视•大全",
+            "type": 3,
+            "api": "./py/影视大全.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "PPnix影院",
+            "name": "PPnix• 影视",
+            "type": 3,
+            "api": "./py/PPnix影院.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "星球",
+            "name": "星球•影视",
+            "type": 3,
+            "api": "./py/星球.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "大米影视",
+            "name": "大米•影视",
+            "type": 3,
+            "api": "./py/大米星球.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "追影影视",
+            "name": "追影• 影视",
+            "type": 3,
+            "api": "./py/追影影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "飞飞影视",
+            "name": "飞飞• 影视",
+            "type": 3,
+            "api": "./py/飞飞影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "新视觉影视",
+            "name": "新视觉• 影视",
+            "type": 3,
+            "api": "./py/新视觉.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "精品影视",
+            "name": "精品• 影视",
+            "type": 3,
+            "api": "./py/精品.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "皮皮影视",
+            "name": "皮皮• 影视",
+            "type": 3,
+            "api": "./py/皮皮驴.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "高清影视",
+            "name": "高清• 影视",
+            "type": 3,
+            "api": "./py/高清影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "小宝追剧",
+            "name": "小宝• 影视",
+            "type": 3,
+            "api": "./py/小宝追剧.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "宅男影视",
+            "name": "宅男• 影视",
+            "type": 3,
+            "api": "./py/宅男影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "西瓜影视",
+            "name": "西瓜• 影视",
+            "type": 3,
+            "api": "./py/西瓜影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "太乙影视",
+            "name": "太乙• 影视",
+            "type": 3,
+            "api": "./py/太乙影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "开心影视",
+            "name": "开心• 影院",
+            "type": 3,
+            "api": "./py/开心影院.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "5影视",
+            "name": "55• 影院",
+            "type": 3,
+            "api": "./py/55影院.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "天堂影视",
+            "name": "天堂• 影视",
+            "type": 3,
+            "api": "./py/69mini.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "兄弟影视",
+            "name": "兄弟•影视",
+            "type": 3,
+            "api": "./py/兄弟.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "追剧兔影视",
+            "name": "追剧兔•影视",
+            "type": 3,
+            "api": "./py/追剧兔.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "瓜子影视",
+            "name": "瓜子•影视",
+            "type": 3,
+            "api": "./py/瓜子影视.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "6V影视",
+            "name": "6V• 影视",
+            "type": 3,
+            "api": "./py/6V.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "laisf影视",
+            "name": "laisd• 影视",
+            "type": 3,
+            "api": "./py/laisd.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "牛马影视",
+            "name": "牛马•影视",
+            "type": 3,
+            "api": "./py/牛马.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "明星影院",
+            "name": "明星• 影院",
+            "type": 3,
+            "api": "./py/明星.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "暮色影院",
+            "name": "暮色• 影院",
+            "type": 3,
+            "api": "./py/msyy.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "糖",
+            "name": "糖•影视",
+            "type": 3,
+            "api": "./py/糖.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "糖影视",
+            "name": "糖1•影视",
+            "type": 3,
+            "api": "./py/糖1.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        },
+        {
+            "key": "爱听音乐",
+            "name": "爱听• 音乐",
+            "type": 3,
+            "api": "./py/爱听音乐.py",
+            "searchable": 1,
+            "changeable": 1,
+            "quickSearch": 1,
+            "filterable": 1
+        }
+    ],
+    "parses": [
+        {
+            "name": "Json并发",
+            "type": 2,
+            "url": "Parallel"
+        },
+        {
+            "name": "Json轮询",
+            "type": 2,
+            "url": "Sequence"
+        },
+        {
+            "name": "解析聚合",
+            "type": 3,
+            "url": "Demo"
+        },
+        {
+            "name": "Web聚合",
+            "type": 3,
+            "url": "Web"
+        },
+        {
+            "name": "聚合解析",
+            "type": 0,
+            "url": "https://jx.jsonplayer.com/player/?url=",
+            "ext": {
+                "flag": [
+                    "qq",
+                    "qiyi",
+                    "mgtv",
+                    "youku",
+                    "letv",
+                    "sohu",
+                    "xigua",
+                    "bilibili"
+                ]
+            }
+        },
+        {
+            "name": "芒果解析",
+            "type": 0,
+            "url": "https://jx.m3u8.tv/jiexi/?url=",
+            "ext": {
+                "flag": [
+                    "mgtv",
+                    "imgo"
+                ]
+            }
+        },
+        {
+            "name": "爱豆解析",
+            "type": 0,
+            "url": "https://jx.aidouer.net/?url=",
+            "ext": {
+                "flag": [
+                    "mgtv",
+                    "imgo"
+                ]
+            }
+        }
+    ],
+    "flags": [
+        "mgtv",
+        "imgo",
+        "qq",
+        "qiyi",
+        "youku"
+    ],
+    "ijk": [
+        {
+            "group": "软解码",
+            "options": [
+                {
+                    "category": 4,
+                    "name": "opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "fflags",
+                    "value": "fastseek"
+                },
+                {
+                    "category": 2,
+                    "name": "skip_loop_filter",
+                    "value": "48"
+                },
+                {
+                    "category": 4,
+                    "name": "reconnect",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "enable-accurate-seek",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-auto-rotate",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-handle-resolution-change",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-hevc",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "dns_cache_timeout",
+                    "value": "600000000"
+                }
+            ]
+        },
+        {
+            "group": "硬解码",
+            "options": [
+                {
+                    "category": 4,
+                    "name": "opensles",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "overlay-format",
+                    "value": "842225234"
+                },
+                {
+                    "category": 4,
+                    "name": "framedrop",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "soundtouch",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "start-on-prepared",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "http-detect-range-support",
+                    "value": "0"
+                },
+                {
+                    "category": 1,
+                    "name": "fflags",
+                    "value": "fastseek"
+                },
+                {
+                    "category": 2,
+                    "name": "skip_loop_filter",
+                    "value": "48"
+                },
+                {
+                    "category": 4,
+                    "name": "reconnect",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "enable-accurate-seek",
+                    "value": "0"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-auto-rotate",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-handle-resolution-change",
+                    "value": "1"
+                },
+                {
+                    "category": 4,
+                    "name": "mediacodec-hevc",
+                    "value": "1"
+                },
+                {
+                    "category": 1,
+                    "name": "dns_cache_timeout",
+                    "value": "600000000"
+                }
+            ]
+        }
+    ],
+    "rules": [
+        {
+            "name": "嗅探",
+            "hosts": [
+                "https://rebozj.pro"
+            ],
+            "regex": [
+                "/playlist/"
+            ]
+        },
+        {
+            "host": "www.iesdouyin.com",
+            "rule": [
+                "playwm/?video_id="
+            ]
+        },
+        {
+            "host": "www.ysgc.vip",
+            "rule": [
+                "getm3u8?url=http"
+            ]
+        },
+        {
+            "host": "v.douyin.com",
+            "rule": [
+                "playwm/?video_id="
+            ]
+        },
+        {
+            "host": "dyxs20.com",
+            "rule": [
+                ".m3u8"
+            ]
+        },
+        {
+            "host": "www.agemys.cc",
+            "rule": [
+                "cdn-tos",
+                "obj/tos-cn"
+            ]
+        },
+        {
+            "host": "www.sharenice.net",
+            "rule": [
+                "http.*?/play.{0,3}\\?[^url]{2,8}=.*",
+                "qianpailive.com",
+                "vid="
+            ]
+        },
+        {
+            "name": "量子广告",
+            "hosts": [
+                "vip.lz",
+                "hd.lz"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+            ]
+        },
+        {
+            "name": "非凡广告",
+            "hosts": [
+                "vip.ffzy",
+                "hd.ffzy"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+            ]
+        },
+        {
+            "name": "ff",
+            "hosts": [
+                "vip.ffzy",
+                "hd.ffzy",
+                "ffzy"
+            ],
+            "regex": [
+                "25.0666",
+                "25.08",
+                "20.52",
+                "25.1",
+                "25.1999"
+            ]
+        },
+        {
+            "name": "暴风广告",
+            "hosts": [
+                "bfzy"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+            ]
+        },
+        {
+            "name": "索尼广告",
+            "hosts": [
+                "suonizy"
+            ],
+            "regex": [
+                "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:7.680000,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+                "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
+            ]
+        },
+        {
+            "name": "磁力广告",
+            "hosts": [
+                "magnet"
+            ],
+            "regex": [
+                "更多",
+                "社 區",
+                "x u u",
+                "最 新",
+                "直 播",
+                "更 新",
+                "社 区",
+                "有 趣",
+                "英皇体育",
+                "全中文AV在线",
+                "澳门皇冠赌场",
+                "哥哥快来",
+                "美女荷官",
+                "裸聊",
+                "新片首发",
+                "UUE29"
+            ]
+        }
+    ],
+    "ads": [
+        "mimg.0c1q0l.cn",
+        "www.googletagmanager.com",
+        "www.google-analytics.com",
+        "mc.usihnbcq.cn",
+        "mg.g1mm3d.cn",
+        "mscs.svaeuzh.cn",
+        "cnzz.hhttm.top",
+        "tp.vinuxhome.com",
+        "cnzz.mmstat.com",
+        "www.baihuillq.com",
+        "s23.cnzz.com",
+        "z3.cnzz.com",
+        "c.cnzz.com",
+        "stj.v1vo.top",
+        "z12.cnzz.com",
+        "img.mosflower.cn",
+        "tips.gamevvip.com",
+        "ehwe.yhdtns.com",
+        "xdn.cqqc3.com",
+        "www.jixunkyy.cn",
+        "sp.chemacid.cn",
+        "hm.baidu.com",
+        "s9.cnzz.com",
+        "z6.cnzz.com",
+        "um.cavuc.com",
+        "mav.mavuz.com",
+        "wofwk.aoidf3.com",
+        "z5.cnzz.com",
+        "xc.hubeijieshikj.cn",
+        "tj.tianwenhu.com",
+        "xg.gars57.cn",
+        "k.jinxiuzhilv.com",
+        "cdn.bootcss.com",
+        "ppl.xunzhuo123.com",
+        "xomk.jiangjunmh.top",
+        "img.xunzhuo123.com",
+        "z1.cnzz.com",
+        "s13.cnzz.com",
+        "xg.huataisangao.cn",
+        "z7.cnzz.com",
+        "xg.huataisangao.cn",
+        "z2.cnzz.com",
+        "s96.cnzz.com",
+        "q11.cnzz.com",
+        "thy.dacedsfa.cn",
+        "xg.whsbpw.cn",
+        "s19.cnzz.com",
+        "z8.cnzz.com",
+        "s4.cnzz.com",
+        "f5w.as12df.top",
+        "ae01.alicdn.com",
+        "www.92424.cn",
+        "k.wudejia.com",
+        "vivovip.mmszxc.top",
+        "qiu.xixiqiu.com",
+        "cdnjs.hnfenxun.com",
+        "cms.qdwght.com",
+        "api.htpan.net"
+    ]
+}
